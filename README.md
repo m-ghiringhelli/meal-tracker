@@ -16,7 +16,7 @@ I) HTML Elements
   B) Display ingredients box
     1) UL CHECK
       a) li as appended CHECKish
-      b) remove last button
+      b) remove last button CHECK
   C) Save Meal Box
     1) Input
     2) Save meal button
@@ -37,14 +37,24 @@ II) Events
     2) Add meal object to meals array
     3) Loop through array to append meals
 III) Feature Plan
-  1) Ingredients box
-  2) Display ingredients box
-  3) Display ingredients functionality
-  4) Remove button
-  5) Remove functionality
-  6) Add meal box
-  7) Display meal box
-  8) Display meal functionality
+  A) Ingredients box  CHECK
+  B) Display ingredients box  CHECK
+  C) Display ingredients functionality
+    1) Get elements
+      a) form data
+      b) add ingredient button
+      c) ul ingredients list
+    2) Eventlistener on button
+    3) Create object from form data
+    4) Add object to ingredient object array
+    5) Append array to ul
+  D) Remove button  CHECK
+  E) Remove functionality
+    1) Get element
+      a) Button
+  F) Add meal box
+  G) Display meal box
+  H) Display meal functionality
 
 IV) State
   1) Array of ingredient objects
