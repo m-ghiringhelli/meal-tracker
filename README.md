@@ -8,14 +8,14 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 I) HTML Elements
   A) Add ingredients box
-    1) Form
-      a) Ingredient
-      b) Quantity
-      c) Measurement - dropdown
-      d) Add Ingredient button
+    1) Form CHECK
+      a) Ingredient CHECK
+      b) Quantity CHECK
+      c) Measurement - dropdown CHECK
+      d) Add Ingredient button  CHECK
   B) Display ingredients box
-    1) UL
-      a) li as appended
+    1) UL CHECK
+      a) li as appended CHECKish
       b) remove last button
   C) Save Meal Box
     1) Input

@@ -56,11 +56,21 @@ h2 {
 .main-section {
     display: flex;
     flex-direction: row;
+    border: solid 1px black;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #ingredient-form {
     display: flex;
     flex-direction: column;
+    border: solid 1px red;
+}
+
+#ingredients-display {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
 }
 
 .gutter-right {
