@@ -38,10 +38,14 @@ II) Events
     3) Loop through array to append meals
 III) Feature Plan
   1) Ingredients box
-  2) Display
-  3) Remove
-  4) Meal box
-  5) Display
+  2) Display ingredients box
+  3) Display ingredients functionality
+  4) Remove button
+  5) Remove functionality
+  6) Add meal box
+  7) Display meal box
+  8) Display meal functionality
+
 IV) State
   1) Array of ingredient objects
   2) Array of meal objects
