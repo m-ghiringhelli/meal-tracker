@@ -6,6 +6,46 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 
 ## Making a plan
 
+I) HTML Elements
+  A) Add ingredients box
+    1) Form
+      a) Ingredient
+      b) Quantity
+      c) Measurement - dropdown
+      d) Add Ingredient button
+  B) Display ingredients box
+    1) UL
+      a) li as appended
+      b) remove last button
+  C) Save Meal Box
+    1) Input
+    2) Save meal button
+  D) Display Meal Box
+    1) UL
+      a) li as appended
+II) Events
+  A) Add ingredient button
+    1) new FormData to create object
+    2) Add object to ingredient array
+    3) Loop through array to append ingredients objects
+  B) Remove last item button
+    1) Clear li's from display
+    2) Pop last ingredient off array
+    2) Loop through array to append ingredients objects
+  C) Save meal button
+    1) create meal object
+    2) Add meal object to meals array
+    3) Loop through array to append meals
+III) Feature Plan
+  1) Ingredients box
+  2) Display
+  3) Remove
+  4) Meal box
+  5) Display
+IV) State
+  1) Array of ingredient objects
+  2) Array of meal objects
+
 1) **Make a drawing of your app. Simple "wireframes"**
 1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
 1) **For each HTML element ask: Why do I need this? (i.e., "we need div to display the results in")** 
