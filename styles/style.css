@@ -53,6 +53,11 @@ h2 {
     font-weight: bold;
 }
 
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
 #ingredient-form {
     display: flex;
     flex-direction: column;
