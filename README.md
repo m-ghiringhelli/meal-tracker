@@ -41,9 +41,9 @@ III) Feature Plan
   B) Display ingredients box  CHECK
   C) Display ingredients functionality
     1) Get elements
-      a) form data
-      b) add ingredient button
-      c) ul ingredients list
+      a) form data CHECK
+      b) add ingredient button CHECK
+      c) ul ingredients list  CHECK
     2) Eventlistener on button
     3) Create object from form data
     4) Add object to ingredient object array

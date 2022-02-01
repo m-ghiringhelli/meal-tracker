@@ -58,7 +58,7 @@ h2 {
     flex-direction: row;
     border: solid 1px black;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #ingredient-form {

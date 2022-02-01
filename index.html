@@ -20,15 +20,15 @@
                     Add Ingredients
                     <label>
                         Ingredients:
-                        <input type="text">
+                        <input type="text" name="ingredient" id="ingredient">
                     </label>
                     <label>
                         Quantity:
-                        <input type="number">
+                        <input type="number" name="quantity" id="quanity">
                     </label>
                     <label>
                         Measurement:
-                        <select>
+                        <select name="measurement" id="measurement">
                             <option value="tsp">teaspoons</option>
                             <option value="tbsp">tablespoons</option>
                             <option value="cup">cups</option>
@@ -36,7 +36,7 @@
                             <option value="mL">milliliters</option>
                         </select>
                     </label>
-                    <button>Add Ingredient</button>
+                    <button id="add-ingredient-button">Add Ingredient</button>
                 </form>
             </div>
             <div class="ingredients" id="ingredients-display">
