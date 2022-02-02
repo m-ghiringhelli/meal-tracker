@@ -14,9 +14,9 @@ form.addEventListener('submit', (e) => {
     const formData = new FormData(form);
     //create object from formData
     const stat = {
-        ingredient: formData.get('ingredient'),
         quantity: formData.get('quantity'),
-        measurement: formData.get('measurement')
+        measurement: formData.get('measurement'),
+        ingredient: formData.get('ingredient'),
     };
     console.log(stat);
 });

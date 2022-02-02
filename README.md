@@ -44,8 +44,8 @@ III) Feature Plan
       a) form data CHECK
       b) add ingredient button CHECK
       c) ul ingredients list  CHECK
-    2) Eventlistener on button
-    3) Create object from form data
+    2) Eventlistener on button CHECK
+    3) Create object from form data CHECK
     4) Add object to ingredient object array
     5) Append array to ul
   D) Remove button  CHECK
