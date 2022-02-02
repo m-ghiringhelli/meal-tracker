@@ -17,9 +17,9 @@ I) HTML Elements
     1) UL CHECK
       a) li as appended CHECK
       b) remove last button CHECK
-  C) Save Meal Box
-    1) Input
-    2) Save meal button
+  C) Save Meal Box CHECK
+    1) Input CHECK
+    2) Save meal button CHECK
   D) Display Meal Box
     1) UL
       a) li as appended
