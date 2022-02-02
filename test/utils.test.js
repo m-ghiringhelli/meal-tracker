@@ -9,7 +9,7 @@ const testData = {
     ingredient: 'cheese',
 };
 
-test('renderIngredients should create a list item from submitted ingredients', (expect) => {
+test('renderIngredient should create a list item from submitted ingredients', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const expected = `<li>3 cups cheese</li>`;

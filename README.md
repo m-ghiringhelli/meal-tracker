@@ -46,7 +46,7 @@ III) Feature Plan
       c) ul ingredients list  CHECK
     2) Eventlistener on button CHECK
     3) Create object from form data CHECK
-    4) Add object to ingredient object array
+    4) Add object to ingredient object array CHECK
     5) Append array to ul
   D) Remove button  CHECK
   E) Remove functionality

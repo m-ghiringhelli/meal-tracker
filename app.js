@@ -1,4 +1,6 @@
 // import functions and grab DOM elements
+import { renderIngredient } from './test/utils.js';
+
 const form = document.getElementById('ingredient-form');
 //const addIngredientButton = document.getElementById('add-ingredient-form');
 const ingredientList = document.getElementById('ingredient-list');
@@ -18,7 +20,7 @@ form.addEventListener('submit', (e) => {
         measurement: formData.get('measurement'),
         ingredient: formData.get('ingredient'),
     };
-    console.log(stat);
+    ingredientList.append(renderIngredient(stat));
 });
   // get user input
   // use user input to update state 
