@@ -12,7 +12,13 @@ let ingredientObjects = [];
 // set event listeners
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+    renderIngredients();
     //get form data
+});
+  // get user input
+  // use user input to update state 
+  // update DOM to reflect the new state
+function renderIngredients() {
     const formData = new FormData(form);
     //create object from formData
     const stat = {
@@ -21,12 +27,12 @@ form.addEventListener('submit', (e) => {
         ingredient: formData.get('ingredient'),
     };
     ingredientObjects.push(renderIngredient(stat));
-    // console.log(ingredientObjects);
-    // ingredientList.append(ingredientObjects);
+
     for (let item of ingredientObjects) {
         ingredientList.append(item);
-    }
-});
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+    } 
+}
+
+function removeLastIngredient() {
+    
+}
