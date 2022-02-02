@@ -47,11 +47,11 @@ III) Feature Plan
     2) Eventlistener on button CHECK
     3) Create object from form data CHECK
     4) Add object to ingredient object array CHECK
-    5) Append array to ul
+    5) Append array to ul CHECK
   D) Remove button  CHECK
   E) Remove functionality
-    1) Get element
-      a) Button
+    1) Get element CHECK
+      a) Button function
   F) Add meal box
   G) Display meal box
   H) Display meal functionality

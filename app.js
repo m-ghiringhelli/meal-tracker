@@ -2,12 +2,12 @@
 import { renderIngredient } from './test/utils.js';
 
 const form = document.getElementById('ingredient-form');
-//const addIngredientButton = document.getElementById('add-ingredient-form');
 const ingredientList = document.getElementById('ingredient-list');
+const removeButton = document.getElementById('remove-button');
 
-// console.log(formData);
-// console.log(addIngredientButton);
 // let state
+let ingredientObjects = [];
+
 
 // set event listeners
 form.addEventListener('submit', (e) => {
@@ -20,7 +20,12 @@ form.addEventListener('submit', (e) => {
         measurement: formData.get('measurement'),
         ingredient: formData.get('ingredient'),
     };
-    ingredientList.append(renderIngredient(stat));
+    ingredientObjects.push(renderIngredient(stat));
+    // console.log(ingredientObjects);
+    // ingredientList.append(ingredientObjects);
+    for (let item of ingredientObjects) {
+        ingredientList.append(item);
+    }
 });
   // get user input
   // use user input to update state 
