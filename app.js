@@ -7,6 +7,7 @@ const removeButton = document.getElementById('remove-button');
 
 // let state
 let ingredientObjects = [];
+let mealObjects = [];
 
 
 // set event listeners

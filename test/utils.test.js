@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { renderIngredient } from './utils.js';
+import { renderIngredient, renderMeal } from './utils.js';
 
 const test = QUnit.test;
 
@@ -8,6 +8,19 @@ const testData = {
     measurement: 'cups',
     ingredient: 'cheese',
 };
+
+const testDataMeals = {
+    name: 'Pizza',
+    numIngredients: 5,
+};
+
+test('renderMeal should return html element with name and ingredients', (expect) => {
+    const expected = '<li>Pizza - 5 ingredients</li>';
+
+    const actual = renderMeal(testDataMeals);
+
+    expect.equal(actual.outerHTML, expected);
+});
 
 test('renderIngredient should create a list item from submitted ingredients', (expect) => {
     //Arrange

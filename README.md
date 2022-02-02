@@ -21,14 +21,14 @@ I) HTML Elements
     1) Input CHECK
     2) Save meal button CHECK
   D) Display Meal Box
-    1) UL
+    1) UL CHECK
       a) li as appended
 II) Events
   A) Add ingredient button CHECK
     1) new FormData to create object CHECK
     2) Add object to ingredient array CHECK
     3) Loop through array to append ingredients objects CHECK
-  B) Remove last item button
+  B) Remove last item button  CHECK
     1) Clear li's from display CHECK
     2) Pop last ingredient off array CHECK
     2) Loop through array to append ingredients objects CHECK
@@ -52,13 +52,19 @@ III) Feature Plan
   E) Remove functionality CHECK
     1) Get element CHECK
       a) Button function CHECK
-  F) Add meal box
-  G) Display meal box
+  F) Add meal box CHECK
+  G) Display meal box CHECK
   H) Display meal functionality
+    1) Get element
+    2) Get button
+    3) Button event listener
+      a) Create object from data
+      b) Add object to ingredients objects array
+    4) Render meal function
 
 IV) State
   1) Array of ingredient objects CHECK
-  2) Array of meal objects
+  2) Array of meal objects  CHECK
 
 1) **Make a drawing of your app. Simple "wireframes"**
 1) **Once you have a drawing, name the HTML elements you'll need to realize your vision**
