@@ -13,9 +13,9 @@ I) HTML Elements
       b) Quantity CHECK
       c) Measurement - dropdown CHECK
       d) Add Ingredient button  CHECK
-  B) Display ingredients box
+  B) Display ingredients box CHECK
     1) UL CHECK
-      a) li as appended CHECKish
+      a) li as appended CHECK
       b) remove last button CHECK
   C) Save Meal Box
     1) Input
@@ -24,14 +24,14 @@ I) HTML Elements
     1) UL
       a) li as appended
 II) Events
-  A) Add ingredient button
-    1) new FormData to create object
-    2) Add object to ingredient array
-    3) Loop through array to append ingredients objects
+  A) Add ingredient button CHECK
+    1) new FormData to create object CHECK
+    2) Add object to ingredient array CHECK
+    3) Loop through array to append ingredients objects CHECK
   B) Remove last item button
-    1) Clear li's from display
-    2) Pop last ingredient off array
-    2) Loop through array to append ingredients objects
+    1) Clear li's from display CHECK
+    2) Pop last ingredient off array CHECK
+    2) Loop through array to append ingredients objects CHECK
   C) Save meal button
     1) create meal object
     2) Add meal object to meals array
@@ -39,8 +39,8 @@ II) Events
 III) Feature Plan
   A) Ingredients box  CHECK
   B) Display ingredients box  CHECK
-  C) Display ingredients functionality
-    1) Get elements
+  C) Display ingredients functionality CHECK
+    1) Get elements CHECK
       a) form data CHECK
       b) add ingredient button CHECK
       c) ul ingredients list  CHECK
@@ -49,15 +49,15 @@ III) Feature Plan
     4) Add object to ingredient object array CHECK
     5) Append array to ul CHECK
   D) Remove button  CHECK
-  E) Remove functionality
+  E) Remove functionality CHECK
     1) Get element CHECK
-      a) Button function
+      a) Button function CHECK
   F) Add meal box
   G) Display meal box
   H) Display meal functionality
 
 IV) State
-  1) Array of ingredient objects
+  1) Array of ingredient objects CHECK
   2) Array of meal objects
 
 1) **Make a drawing of your app. Simple "wireframes"**
