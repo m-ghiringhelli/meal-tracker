@@ -4,6 +4,8 @@ import { renderIngredient } from './test/utils.js';
 const form = document.getElementById('ingredient-form');
 const ingredientList = document.getElementById('ingredient-list');
 const removeButton = document.getElementById('remove-button');
+const saveMealInput = document.getElementById('meal-input');
+const saveMealButton = document.getElementById('save-meal-button');
 
 // let state
 let ingredientObjects = [];
@@ -26,6 +28,14 @@ form.addEventListener('submit', (e) => {
 
 removeButton.addEventListener('click', () => {
     removeLastIngredient();
+});
+
+saveMealInput.addEventListener('click', () => {
+    saveMealInput.value = '';
+});
+
+saveMealButton.addEventListener('click', () => {
+
 });
 
   // get user input
