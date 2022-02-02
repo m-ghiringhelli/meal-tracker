@@ -15,6 +15,11 @@ form.addEventListener('submit', (e) => {
     renderIngredients();
     //get form data
 });
+
+removeButton.addEventListener('click', () => {
+    removeLastIngredient();
+});
+
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
@@ -34,5 +39,5 @@ function renderIngredients() {
 }
 
 function removeLastIngredient() {
-    
+    ingredientList.pop();
 }
