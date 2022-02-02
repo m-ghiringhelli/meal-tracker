@@ -7,7 +7,7 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 ## Making a plan
 
 I) HTML Elements
-  A) Add ingredients box
+  A) Add ingredients box CHECK
     1) Form CHECK
       a) Ingredient CHECK
       b) Quantity CHECK
@@ -22,7 +22,7 @@ I) HTML Elements
     2) Save meal button CHECK
   D) Display Meal Box
     1) UL CHECK
-      a) li as appended
+      a) li as appended CHECK
 II) Events
   A) Add ingredient button CHECK
     1) new FormData to create object CHECK
@@ -32,10 +32,10 @@ II) Events
     1) Clear li's from display CHECK
     2) Pop last ingredient off array CHECK
     2) Loop through array to append ingredients objects CHECK
-  C) Save meal button
-    1) create meal object
-    2) Add meal object to meals array
-    3) Loop through array to append meals
+  C) Save meal button CHECK
+    1) create meal object CHECK
+    2) Add meal object to meals array CHECK
+    3) Loop through array to append meals CHECK
 III) Feature Plan
   A) Ingredients box  CHECK
   B) Display ingredients box  CHECK
@@ -55,12 +55,12 @@ III) Feature Plan
   F) Add meal box CHECK
   G) Display meal box CHECK
   H) Display meal functionality
-    1) Get element
-    2) Get button
+    1) Get element CHECK
+    2) Get button CHECK
     3) Button event listener
-      a) Create object from data
-      b) Add object to ingredients objects array
-    4) Render meal function
+      a) Create object from data  CHECK
+      b) Add object to ingredients objects array CHECK
+    4) Render meal function CHECK
 
 IV) State
   1) Array of ingredient objects CHECK

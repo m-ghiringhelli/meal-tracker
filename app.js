@@ -1,8 +1,9 @@
 // import functions and grab DOM elements
-import { renderIngredient } from './test/utils.js';
+import { renderIngredient, renderMeal } from './test/utils.js';
 
 const form = document.getElementById('ingredient-form');
 const ingredientList = document.getElementById('ingredient-list');
+const mealList = document.getElementById('meal-list');
 const removeButton = document.getElementById('remove-button');
 const saveMealInput = document.getElementById('meal-input');
 const saveMealButton = document.getElementById('save-meal-button');
@@ -35,7 +36,12 @@ saveMealInput.addEventListener('click', () => {
 });
 
 saveMealButton.addEventListener('click', () => {
-
+    const meal = {
+        name: saveMealInput.value,
+        numIngredients: ingredientObjects.length,
+    };
+    mealObjects.push(meal);
+    renderMeals();
 });
 
   // get user input
@@ -52,4 +58,11 @@ function renderIngredients() {
 function removeLastIngredient() {
     ingredientObjects.pop();
     renderIngredients();
+}
+
+function renderMeals() {
+    for (let item of mealObjects) {
+        const li = renderMeal(item);
+        mealList.appendChild(li);
+    }
 }
