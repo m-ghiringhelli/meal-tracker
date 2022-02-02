@@ -61,19 +61,13 @@ h2 {
     justify-content: space-around;
 }
 
-#ingredient-form {
+.display-box {
     display: flex;
     flex-direction: column;
     border: solid 1px red;
 }
 
 #ingredients-display {
-    display: flex;
-    flex-direction: column;
-    border: solid 1px red;
-}
-
-.meal-save {
     display: flex;
     flex-direction: column;
     border: solid 1px red;

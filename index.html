@@ -16,7 +16,7 @@
     <main>
         <section class="main-section">
             <div class="ingredients" id="ingredients-input">
-                <form id="ingredient-form">
+                <form id="ingredient-form" class="display-box">
                     Add Ingredients
                     <label>
                         Ingredient:
@@ -39,7 +39,7 @@
                     <button id="add-ingredient-button">Add Ingredient</button>
                 </form>
             </div>
-            <div class="ingredients" id="ingredients-display">
+            <div class="ingredients" id="ingredients-display" class="display-box">
                 <div id="rendered-ingredients">
                     <ul id="ingredient-list">
                     </ul>
@@ -48,12 +48,16 @@
             </div>
         </section>
         <section class="main-section">
-            <div class="meal-save">
+            <div id="meal-save" class="display-box">
                 <h2>SAVE YOUR MEAL</h2>
                 <input type="text" value="Name Your Meal">
                 <button>Save It</button>
             </div>
-            <div id="meal-display"></div>
+            <div id="meal-display" class="display-box">
+                <h2>MEALS</h2>
+                <ul id="meal-list">
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
