@@ -12,8 +12,15 @@ let ingredientObjects = [];
 // set event listeners
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+    const formData = new FormData(form);
+    //create object from formData
+    const stat = {
+        quantity: formData.get('quantity'),
+        measurement: formData.get('measurement'),
+        ingredient: formData.get('ingredient'),
+    };
+    ingredientObjects.push(stat);
     renderIngredients();
-    //get form data
 });
 
 removeButton.addEventListener('click', () => {
@@ -24,20 +31,14 @@ removeButton.addEventListener('click', () => {
   // use user input to update state 
   // update DOM to reflect the new state
 function renderIngredients() {
-    const formData = new FormData(form);
-    //create object from formData
-    const stat = {
-        quantity: formData.get('quantity'),
-        measurement: formData.get('measurement'),
-        ingredient: formData.get('ingredient'),
-    };
-    ingredientObjects.push(renderIngredient(stat));
-
+    ingredientList.textContent = '';
     for (let item of ingredientObjects) {
-        ingredientList.append(item);
-    } 
+        const li = renderIngredient(item);
+        ingredientList.appendChild(li);
+    }
 }
-
+  
 function removeLastIngredient() {
-    ingredientList.pop();
+    ingredientObjects.pop();
+    renderIngredients();
 }
